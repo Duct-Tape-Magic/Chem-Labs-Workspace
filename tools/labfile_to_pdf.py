@@ -262,7 +262,7 @@ def parse(text):
         if s.startswith("\\") and not s.startswith("\\input"):
             flush()
             name, opts, content, i = read_command(lines, i)
-            if name in ("title", "summary", "tags", "minutes"):
+            if name in ("title", "summary", "tags", "minutes", "reportminutes"):
                 meta[name] = content.strip()
             else:
                 blocks.append({"type": "cmd", "name": name, "opts": opts, "content": content})
@@ -676,7 +676,9 @@ def build(src, out, images):
     bld.story.append(Paragraph(esc(meta.get("title", "Lab")), S["title"]))
     sub = []
     if meta.get("minutes"):
-        sub.append("About %s minutes" % meta["minutes"])
+        sub.append("Procedure about %s minutes" % meta["minutes"])
+    if meta.get("reportminutes"):
+        sub.append("Report write-up about %s minutes" % meta["reportminutes"])
     if sub:
         bld.story.append(Paragraph(" · ".join(sub), S["note"]))
     bld.story.append(Spacer(1, 8))

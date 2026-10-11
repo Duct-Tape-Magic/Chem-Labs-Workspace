@@ -2,6 +2,7 @@
 \summary{Titrate vinegar and an oxalic acid cleanser extract with home-made sodium hydroxide, weighing the titrant on a pocket scale, and read the pKa of each acid from pH strips at the half-neutralized points.}
 \tags{acids, Ka, titration, equilibrium, buffers}
 \minutes{110}
+\reportminutes{75}
 
 In this lab you find the acid dissociation constant, $K_a$, of two weak acids: acetic acid in distilled white vinegar and oxalic acid extracted from a powdered cleanser. $K_a$ measures how far an acid dissociates in water and it sets the pH of every buffer, blood included. You will make a dilute sodium hydroxide solution from drain-cleaner lye, titrate each acid by weighing the titrant delivered from a dropper bottle, and then prepare mixtures that are one quarter, one half and three quarters of the way to the equivalence point. The pH of those mixtures, read from test strips, gives the $\mathrm{p}K_a$ directly.
 
