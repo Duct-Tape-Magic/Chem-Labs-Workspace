@@ -146,37 +146,35 @@ def math_inline(src):
 
 
 def inline(text):
-    """Markdown inline + $math$ + \\input -> reportlab paragraph markup."""
-    parts = []
-    pos = 0
+    """Markdown inline + $math$ + \\input -> reportlab paragraph markup.
+
+    Math, code and \\input tokens are swapped for placeholders first so that
+    **bold** or *italic* spans may wrap around them.
+    """
+    raw = []
     pattern = re.compile(r"(\$[^$]+\$|`[^`]+`|\\input\[[^\]]*\])")
-    for m in pattern.finditer(text):
-        parts.append(("md", text[pos:m.start()]))
+
+    def stash(m):
         tok = m.group(0)
         if tok.startswith("$"):
-            parts.append(("raw", math_inline(tok[1:-1])))
+            r = math_inline(tok[1:-1])
         elif tok.startswith("`"):
-            parts.append(("raw", '<font face="DejaVuSansMono">%s</font>' % esc(tok[1:-1])))
+            r = '<font face="DejaVuSansMono">%s</font>' % esc(tok[1:-1])
         else:
             opts = parse_opts(tok[len("\\input["):-1])
             label = opts.get("label", "")
             unit = opts.get("unit", "")
-            blank = "____________"
-            s = (esc(label) + " " if label else "") + blank + (" " + esc(unit) if unit else "")
-            parts.append(("raw", s))
-        pos = m.end()
-    parts.append(("md", text[pos:]))
-    out = []
-    for kind, s in parts:
-        if kind == "raw":
-            out.append(s)
-            continue
-        s = esc(s)
-        s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
-        s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?!\w)", r"<i>\1</i>", s)
-        s = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<link href="\2" color="#b3412f">\1</link>', s)
-        out.append(s)
-    return "".join(out)
+            r = (esc(label) + " " if label else "") + "____________" + (" " + esc(unit) if unit else "")
+        raw.append(r)
+        return "\x00%d\x00" % (len(raw) - 1)
+
+    s = pattern.sub(stash, text)
+    s = esc(s)
+    s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+    s = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?!\w)", r"<i>\1</i>", s)
+    s = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<link href="\2" color="#b3412f">\1</link>', s)
+    s = re.sub(r"\x00(\d+)\x00", lambda m: raw[int(m.group(1))], s)
+    return s
 
 
 def parse_opts(s):
@@ -534,7 +532,7 @@ class Builder:
                 m = re.match(r"\*\*(\d+\.\d+)\*\*\s+(.*)", b["text"], re.S)
                 if m:
                     st.append(Paragraph(inline(m.group(2)), S["step"], bulletText=m.group(1)))
-                elif nxt == "equation":
+                elif nxt == "equation" or (nxt == "para" and bi + 2 < len(blocks) and blocks[bi + 2]["type"] == "equation" and len(blocks[bi + 1]["text"]) < 90):
                     st.append(Paragraph(inline(b["text"]), ParagraphStyle("lead", parent=S["body"], keepWithNext=1)))
                 else:
                     st.append(Paragraph(inline(b["text"]), S["body"]))

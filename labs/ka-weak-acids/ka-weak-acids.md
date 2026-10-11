@@ -3,10 +3,10 @@
 \tags{acids, Ka, titration, equilibrium, buffers}
 \minutes{120}
 
-In this lab you find the acid dissociation constant, $K_a$, of two weak acids: acetic acid in distilled white vinegar and oxalic acid extracted from a powdered cleanser. $K_a$ measures how far an acid dissociates in water and it sets the pH of every buffer, blood included. You will make a dilute sodium hydroxide solution from drain-cleaner lye, titrate each acid by weighing the titrant delivered from a dropper bottle, and then prepare mixtures that are one quarter, one half and three quarters of the way to the equivalence point. The pH of those mixtures, read from test strips, gives the pKa directly.
+In this lab you find the acid dissociation constant, $K_a$, of two weak acids: acetic acid in distilled white vinegar and oxalic acid extracted from a powdered cleanser. $K_a$ measures how far an acid dissociates in water and it sets the pH of every buffer, blood included. You will make a dilute sodium hydroxide solution from drain-cleaner lye, titrate each acid by weighing the titrant delivered from a dropper bottle, and then prepare mixtures that are one quarter, one half and three quarters of the way to the equivalence point. The pH of those mixtures, read from test strips, gives the $\mathrm{p}K_a$ directly.
 
 \info[label="Why the half-way point gives pKa (optional)"]{
-When half of a weak acid HA has been converted to its conjugate base A⁻, the two are present in equal amounts, and the Henderson–Hasselbalch equation reduces to pH = pKa. The concentration of the sodium hydroxide never enters this result. Only the *fraction* of the acid that has been neutralized matters, and that fraction is fixed by the mass of titrant added divided by the mass needed to reach the equivalence point. The method is insensitive to small errors in that mass, because the pH of a buffer changes slowly with composition. The result is only as good as the pH reading, which is why the procedure begins with a check of the strips against a reference solution.
+When half of a weak acid HA has been converted to its conjugate base A⁻, the two are present in equal amounts, and the Henderson–Hasselbalch equation reduces to pH = $\mathrm{p}K_a$. The concentration of the sodium hydroxide never enters this result. Only the *fraction* of the acid that has been neutralized matters, and that fraction is fixed by the mass of titrant added divided by the mass needed to reach the equivalence point. The method is insensitive to small errors in that mass, because the pH of a buffer changes slowly with composition. The result is only as good as the pH reading, which is why the procedure begins with a check of the strips against a reference solution.
 }
 
 # Equations
@@ -92,7 +92,7 @@ Wear safety goggles for the whole lab and gloves while handling the lye and its 
 
 **0.1** Measure **250 mL** of distilled water into the 500 mL bottle with the measuring cup. If a kitchen scale is available, weigh **249 g** of water instead. Set the bottle aside with the cap off.
 
-**0.2** Put a small dry cup on the pocket scale and tare it. Weigh **1.00 g** of lye crystals into the cup, working quickly because lye absorbs water from the air. Record the mass **m_lye** to 0.01 g.
+**0.2** Put a small dry cup on the pocket scale and tare it. Weigh **1.00 g** of lye crystals into the cup, working quickly because lye absorbs water from the air. Record the mass **$m_{lye}$** to 0.01 g.
 
 **0.3** Tip the lye into the water in the bottle, cap it, and swirl until no crystals remain. The bottle warms slightly. Label the bottle "0.1 M NaOH". Fill the dropper bottle from it and keep the rest capped.
 
@@ -100,70 +100,70 @@ Wear safety goggles for the whole lab and gloves while handling the lye and its 
 
 **0.5** Put **½ teaspoon** of cream of tartar and about **25 mL** (5 teaspoons) of distilled water in the second small cup. Stir for 2 minutes. Some powder stays undissolved; this is required, because the reference pH of 3.56 belongs to the *saturated* solution.
 
-**0.6** Dip a pH strip into the cream of tartar solution for 1 second, shake off the excess, and compare it with the chart after the time stated on the package. Read to the nearest 0.25 by judging the color between the two closest blocks. Record the strip reading **pH_ref** to 0.25.
+**0.6** Dip a pH strip into the cream of tartar solution for 1 second, shake off the excess, and compare it with the chart after the time stated on the package. Read to the nearest 0.25 by judging the color between the two closest blocks. Record the strip reading **$\mathrm{pH}_{ref}$** to 0.25.
 
 **0.7** Put **2.0 g** of Bar Keepers Friend powder and about **60 mL** (¼ cup) of distilled water in a plastic cup. Stir for 5 minutes and let it stand for 5 minutes. The grey abrasive settles; the liquid stays slightly cloudy and may foam. Pour the liquid through a coffee filter into a clean cup. Collect at least 35 g of filtrate. This is the oxalic acid extract.
 
 # Measurements used in both parts
 
-**The titration.** Swirl the sample cup so the indicator is evenly mixed; the solution is yellow. Make sure the dropper bottle holds at least 15 g of titrant, refilling from the stock bottle if it does not. Hold the dropper bottle upright so no drop hangs from the tip, place it on the scale, and record its mass **m_before** to 0.01 g. Add titrant to the sample a few drops at a time, swirling after each addition. When an orange or brown color appears where the drops land and takes more than a second to fade, slow to single drops. Stop at the first drop after which the whole solution stays orange-brown through 30 seconds of swirling. Hold the bottle upright, weigh it again, and record **m_after** to 0.01 g. The mass of titrant to the equivalence point is **m_eq** = m_before − m_after. Discard the run if a drop fell outside the cup or if a drop was left hanging from the tip at either weighing.
+**The titration.** Swirl the sample cup so the indicator is evenly mixed; the solution is yellow. Make sure the dropper bottle holds at least 15 g of titrant, refilling from the stock bottle if it does not. Hold the dropper bottle upright so no drop hangs from the tip, place it on the scale, and record its mass **$m_{before}$** to 0.01 g. Add titrant to the sample a few drops at a time, swirling after each addition. When an orange or brown color appears where the drops land and takes more than a second to fade, slow to single drops. Stop at the first drop after which the whole solution stays orange-brown through 30 seconds of swirling. Hold the bottle upright, weigh it again, and record **$m_{after}$** to 0.01 g. The mass of titrant to the equivalence point is $m_{eq} = m_{before} - m_{after}$. Discard the run if a drop fell outside the cup or if a drop was left hanging from the tip at either weighing.
 
-**The pH reading.** Stir the mixture with the plastic spoon for 10 seconds. Dip a fresh pH strip into the mixture for 1 second, shake off the excess, and compare it with the chart after the time stated on the package. Read to the nearest 0.25 by judging the color between the two closest blocks. Record the reading as **pH_read**. Do not put turmeric indicator in any mixture that will be read with a strip; the yellow dye changes the strip color.
+**The pH reading.** Stir the mixture with the plastic spoon for 10 seconds. Dip a fresh pH strip into the mixture for 1 second, shake off the excess, and compare it with the chart after the time stated on the package. Read to the nearest 0.25 by judging the color between the two closest blocks. Record the reading as **$\mathrm{pH}_{read}$**. Do not put turmeric indicator in any mixture that will be read with a strip; the yellow dye changes the strip color.
 
 # Part 1 — Acetic acid in vinegar
 
-**1.1** Put a clean plastic cup on the scale and tare it. Use the pipette to add **1.50 g** of vinegar, within 0.10 g. Record the mass **m_v** to 0.01 g.
+**1.1** Put a clean plastic cup on the scale and tare it. Use the pipette to add **1.50 g** of vinegar, within 0.10 g. Record the mass **$m_{v}$** to 0.01 g.
 
 **1.2** Add about **20 mL** (4 teaspoons) of distilled water and **4 drops** of turmeric indicator to the cup. Swirl. The solution is pale yellow.
 
-**1.3** Make the titration. Record **m_before**, **m_after** and **m_eq** in the table under Run 1.
+**1.3** Make the titration. Record **$m_{before}$**, **$m_{after}$** and **$m_{eq}$** in the table under Run 1.
 
-**1.4** Repeat steps 1.1 to 1.3 with a fresh vinegar sample as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values of R differ by more than 5% of their mean, do a third run and use the two closest values.
+**1.4** Repeat steps 1.1 to 1.3 with a fresh vinegar sample as Run 2. Calculate $R = m_{eq} / m_{v}$ for each run. If the two values of $R$ differ by more than 5% of their mean, do a third run and use the two closest values.
 
-**1.5** Put a clean plastic cup on the scale and tare it. Add **1.50 g** of vinegar, within 0.10 g, and record the mass **m_s** to 0.01 g. Add about **20 mL** (4 teaspoons) of distilled water. Do not add indicator.
+**1.5** Put a clean plastic cup on the scale and tare it. Add **1.50 g** of vinegar, within 0.10 g, and record the mass **$m_{s}$** to 0.01 g. Add about **20 mL** (4 teaspoons) of distilled water. Do not add indicator.
 
-**1.6** Weigh the dropper bottle. Add titrant, re-weighing the bottle between additions, until the mass delivered is **0.25 × R × m_s**, within 0.10 g. Record the mass added **m_t** to 0.01 g. Make the pH reading. Record **pH_read** in the table for the f = 0.25 point.
+**1.6** Weigh the dropper bottle. Add titrant, re-weighing the bottle between additions, until the mass delivered is **0.25 × $R$ × $m_{s}$**, within 0.10 g. Record the mass added **$m_{t}$** to 0.01 g. Make the pH reading. Record **$\mathrm{pH}_{read}$** in the table for the $f$ = 0.25 point.
 
-**1.7** Continue adding titrant to the same cup until the total mass delivered since step 1.5 is **0.50 × R × m_s**, within 0.10 g. Record **m_t** and make the pH reading for the f = 0.50 point.
+**1.7** Continue adding titrant to the same cup until the total mass delivered since step 1.5 is **0.50 × $R$ × $m_{s}$**, within 0.10 g. Record **$m_{t}$** and make the pH reading for the $f$ = 0.50 point.
 
-**1.8** Continue adding titrant until the total mass delivered is **0.75 × R × m_s**, within 0.10 g. Record **m_t** and make the pH reading for the f = 0.75 point.
+**1.8** Continue adding titrant until the total mass delivered is **0.75 × $R$ × $m_{s}$**, within 0.10 g. Record **$m_{t}$** and make the pH reading for the $f$ = 0.75 point.
 
 \photo[id=acetic-endpoint]{Photograph the two vinegar titration cups side by side at the end of Run 2, with the orange-brown endpoint color visible.}
 
 # Part 2 — Oxalic acid in the cleanser extract
 
-**2.1** Put a clean plastic cup on the scale and tare it. Pour in **10 g** of the oxalic acid extract, within 1 g, and record the mass **m_v** to 0.01 g. Add **4 drops** of turmeric indicator and swirl. Foam from the detergent in the cleanser is normal; let it settle before reading colors.
+**2.1** Put a clean plastic cup on the scale and tare it. Pour in **10 g** of the oxalic acid extract, within 1 g, and record the mass **$m_{v}$** to 0.01 g. Add **4 drops** of turmeric indicator and swirl. Foam from the detergent in the cleanser is normal; let it settle before reading colors.
 
-**2.2** Make the titration. There is no color change at the first equivalence point of this diprotic acid; the endpoint found here is the second equivalence point. Record **m_before**, **m_after** and **m_eq** under Run 1.
+**2.2** Make the titration. There is no color change at the first equivalence point of this diprotic acid; the endpoint found here is the second equivalence point. Record **$m_{before}$**, **$m_{after}$** and **$m_{eq}$** under Run 1.
 
-**2.3** Repeat steps 2.1 and 2.2 with a fresh 10 g portion of extract as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values differ by more than 5% of their mean, do a third run and use the two closest values.
+**2.3** Repeat steps 2.1 and 2.2 with a fresh 10 g portion of extract as Run 2. Calculate $R = m_{eq} / m_{v}$ for each run. If the two values differ by more than 5% of their mean, do a third run and use the two closest values.
 
-**2.4** Put a clean plastic cup on the scale and tare it. Pour in **15 g** of extract, within 1 g, and record the mass **m_s** to 0.01 g. Do not add indicator.
+**2.4** Put a clean plastic cup on the scale and tare it. Pour in **15 g** of extract, within 1 g, and record the mass **$m_{s}$** to 0.01 g. Do not add indicator.
 
-**2.5** Weigh the dropper bottle. Add titrant, re-weighing the bottle between additions, until the mass delivered is **0.625 × R × m_s**, within 0.10 g. Record **m_t** and make the pH reading for the f = 0.625 point.
+**2.5** Weigh the dropper bottle. Add titrant, re-weighing the bottle between additions, until the mass delivered is **0.625 × $R$ × $m_{s}$**, within 0.10 g. Record **$m_{t}$** and make the pH reading for the $f$ = 0.625 point.
 
-**2.6** Continue adding titrant to the same cup until the total mass delivered since step 2.4 is **0.750 × R × m_s**, within 0.10 g. Record **m_t** and make the pH reading for the f = 0.750 point.
+**2.6** Continue adding titrant to the same cup until the total mass delivered since step 2.4 is **0.750 × $R$ × $m_{s}$**, within 0.10 g. Record **$m_{t}$** and make the pH reading for the $f$ = 0.750 point.
 
-**2.7** Continue adding titrant until the total mass delivered is **0.875 × R × m_s**, within 0.10 g. Record **m_t** and make the pH reading for the f = 0.875 point.
+**2.7** Continue adding titrant until the total mass delivered is **0.875 × $R$ × $m_{s}$**, within 0.10 g. Record **$m_{t}$** and make the pH reading for the $f$ = 0.875 point.
 
 **2.8** Pour all solutions down the drain with plenty of running water. Rinse the cups and the dropper bottle. The sodium hydroxide stock keeps for a month in the capped plastic bottle.
 
 \photo[id=strips]{Photograph all six used pH strips laid on a white paper towel next to the package color chart, labeled with their f values.}
 
-From the fraction f and the strip reading at each point, calculate the pKa of acetic acid and the second pKa of oxalic acid, correcting each reading by the strip offset found in step 0.6. Compare the three estimates for each acid with one another and with the expected readings in the reference table, and compare the corrected pKa values with the accepted values. With the ratio R from Part 1 and the nominal titrant concentration, the mass percent of acetic acid in the vinegar can be calculated and compared with the label.
+From the fraction $f$ and the strip reading at each point, calculate the $\mathrm{p}K_a$ of acetic acid and the second $\mathrm{p}K_a$ of oxalic acid, correcting each reading by the strip offset found in step 0.6. Compare the three estimates for each acid with one another and with the expected readings in the reference table, and compare the corrected $\mathrm{p}K_a$ values with the accepted values. With the ratio $R$ from Part 1 and the nominal titrant concentration, the mass percent of acetic acid in the vinegar can be calculated and compared with the label.
 
 # Reference material
 
 ## Accepted values
 
-| Acid | Accepted pKa at 25 °C, zero ionic strength | Source | Expected strip reading in this lab |
+| Acid | Accepted $\mathrm{p}K_a$ at 25 °C, zero ionic strength | Source | Expected strip reading in this lab |
 |---|---|---|---|
 | Acetic acid | 4.756 | Harned and Ehlers, 1933 | 4.69 at f = 0.50 |
 | Oxalic acid, first dissociation | 1.25 | Martell and Smith, Critical Stability Constants, 1977 | not measured |
 | Oxalic acid, second dissociation | 4.27 | Martell and Smith, Critical Stability Constants, 1977 | 4.04 at f = 0.750 |
 
 \info[label="Why the expected reading is below the accepted pKa (optional)"]{
-The accepted pKa values refer to infinitely dilute solution. In the titration mixtures the dissolved ions, mainly sodium ions and the conjugate base, lower the activity of the charged species, and a pH meter or strip responds to activity. The mixtures here have an ionic strength near 0.02 mol/L for acetic acid and 0.04 mol/L for oxalic acid. The Davies equation then predicts a reading about 0.07 below the pKa for acetic acid, whose conjugate base carries one charge, and about 0.23 below the second pKa for oxalic acid, whose conjugate base carries two charges. The "expected strip reading" column already includes this shift, so a perfect strip in a perfect titration reads 4.69 and 4.04, not 4.76 and 4.27.
+The accepted $\mathrm{p}K_a$ values refer to infinitely dilute solution. In the titration mixtures the dissolved ions, mainly sodium ions and the conjugate base, lower the activity of the charged species, and a pH meter or strip responds to activity. The mixtures here have an ionic strength near 0.02 mol/L for acetic acid and 0.04 mol/L for oxalic acid. The Davies equation then predicts a reading about 0.07 below the $\mathrm{p}K_a$ for acetic acid, whose conjugate base carries one charge, and about 0.23 below the second $\mathrm{p}K_a$ for oxalic acid, whose conjugate base carries two charges. The "expected strip reading" column already includes this shift, so a perfect strip in a perfect titration reads 4.69 and 4.04, not 4.76 and 4.27.
 }
 
 ## Model titration curves
@@ -172,32 +172,32 @@ The accepted pKa values refer to infinitely dilute solution. In the titration mi
 
 ## Sodium hydroxide concentration
 
-The lye is labeled 100% sodium hydroxide, but crystals that have been opened absorb water and carbon dioxide from the air, so the titrant is nominally, not exactly, 0.100 mol/kg. The ratio R and every pKa are independent of the titrant concentration. Only the extension (percent acetic acid in vinegar) depends on it, and the label value is uncertain to a few percent for that reason.
+The lye is labeled 100% sodium hydroxide, but crystals that have been opened absorb water and carbon dioxide from the air, so the titrant is nominally, not exactly, 0.100 mol/kg. The ratio R and every $\mathrm{p}K_a$ are independent of the titrant concentration. Only the extension (percent acetic acid in vinegar) depends on it, and the label value is uncertain to a few percent for that reason.
 
 # Data
 
 Titrant: 1.00 g lye in 250 g solution, nominal $c_{t}$ = 1.00 × 10⁻⁴ mol NaOH per g of titrant. Reference: saturated cream of tartar, pH 3.56 at 25 °C. Molar masses: acetic acid 60.05 g/mol, sodium hydroxide 40.00 g/mol. Vinegar label: 5.0% acidity.
 
-Mass of lye weighed, **m_lye**: \input[id=mlye, unit=g]
+Mass of lye weighed, **$m_{lye}$**: \input[id=mlye, unit=g]
 
 \datatable[id=stripcheck, title="Strip check"]{
-| Solution | Accepted pH | Strip reading pH_ref |
+| Solution | Accepted pH | Strip reading $\mathrm{pH}_{ref}$ |
 |---|---|---|
 | Saturated cream of tartar | 3.56 | ___ |
 }
 
 \datatable[id=eq-acetic, title="Equivalence titrations — acetic acid"]{
-| Run | m_v (g) | m_before (g) | m_after (g) | m_eq (g) | R (g/g) |
+| Run | $m_{v}$ (g) | $m_{before}$ (g) | $m_{after}$ (g) | $m_{eq}$ (g) | $R$ (g/g) |
 |---|---|---|---|---|---|
 | Run 1 | ___ | ___ | ___ | ___ | ___ |
 | Run 2 | ___ | ___ | ___ | ___ | ___ |
 | Run 3 (if needed) | ___ | ___ | ___ | ___ | ___ |
 }
 
-Mass of vinegar in the pH mixture, **m_s**: \input[id=ms-acetic, unit=g]
+Mass of vinegar in the pH mixture, **$m_{s}$**: \input[id=ms-acetic, unit=g]
 
 \datatable[id=ph-acetic, title="pH readings — acetic acid"]{
-| Point | Target f | m_t (g) | f | pH_read | pH_corr |
+| Point | Target $f$ | $m_{t}$ (g) | $f$ | $\mathrm{pH}_{read}$ | $\mathrm{pH}_{corr}$ |
 |---|---|---|---|---|---|
 | Quarter | 0.25 | ___ | ___ | ___ | ___ |
 | Half | 0.50 | ___ | ___ | ___ | ___ |
@@ -207,17 +207,17 @@ Mass of vinegar in the pH mixture, **m_s**: \input[id=ms-acetic, unit=g]
 \graph[table=ph-acetic, id=hh-acetic, x="log(c4/(1-c4))", y=c6, fit=linear, title="Acetic acid", xlabel="log of base-to-acid ratio", ylabel="corrected pH"]{Henderson–Hasselbalch plot for acetic acid. The intercept is the pKa and the slope should be close to 1.}
 
 \datatable[id=eq-oxalic, title="Equivalence titrations — oxalic acid extract"]{
-| Run | m_v (g) | m_before (g) | m_after (g) | m_eq (g) | R (g/g) |
+| Run | $m_{v}$ (g) | $m_{before}$ (g) | $m_{after}$ (g) | $m_{eq}$ (g) | $R$ (g/g) |
 |---|---|---|---|---|---|
 | Run 1 | ___ | ___ | ___ | ___ | ___ |
 | Run 2 | ___ | ___ | ___ | ___ | ___ |
 | Run 3 (if needed) | ___ | ___ | ___ | ___ | ___ |
 }
 
-Mass of extract in the pH mixture, **m_s**: \input[id=ms-oxalic, unit=g]
+Mass of extract in the pH mixture, **$m_{s}$**: \input[id=ms-oxalic, unit=g]
 
 \datatable[id=ph-oxalic, title="pH readings — oxalic acid extract"]{
-| Point | Target f | m_t (g) | f | pH_read | pH_corr |
+| Point | Target $f$ | $m_{t}$ (g) | $f$ | $\mathrm{pH}_{read}$ | $\mathrm{pH}_{corr}$ |
 |---|---|---|---|---|---|
 | Five eighths | 0.625 | ___ | ___ | ___ | ___ |
 | Three quarters | 0.750 | ___ | ___ | ___ | ___ |
@@ -253,7 +253,7 @@ Write in the past tense and third person. Give every number a unit and a sensibl
 
 \usephoto{strips}
 
-\answer[id=calculations, title="Calculations", required, lines=10, hint="Show one worked example of each step for acetic acid, the fraction f from the masses, the base to acid ratio, the strip correction, the pKa from the Henderson Hasselbalch equation, and Ka from pKa. State the three pKa estimates for each acid and their mean. For oxalic acid use the ratio for the second dissociation."]{Show the calculations that lead from the recorded masses and strip readings to the pKa and Ka of each acid.}
+\answer[id=calculations, title="Calculations", required, lines=10, hint="Show one worked example of each step for acetic acid, the fraction f from the masses, the base to acid ratio, the strip correction, the pKa from the Henderson Hasselbalch equation, and Ka from pKa. State the three pKa estimates for each acid and their mean. For oxalic acid use the ratio for the second dissociation."]{Show the calculations that lead from the recorded masses and strip readings to the $\mathrm{p}K_a$ and $K_a$ of each acid.}
 
 \answer[id=comparison, title="Comparison with accepted values", required, words=80-200, hint="Compare each mean pKa with the accepted value and with the expected strip reading in the reference table, and say which comparison is the fair one. State the percent difference. Compare the slope of each Henderson Hasselbalch plot with 1 and say what a slope far from 1 would mean."]{Compare the results with the accepted values.}
 
