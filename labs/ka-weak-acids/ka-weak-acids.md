@@ -118,7 +118,7 @@ Wear safety goggles for the whole lab and gloves while handling the lye and its 
 
 **1.3** Make the titration. Record **m_before**, **m_after** and **m_eq** in the table under Run 1.
 
-**1.4** Repeat steps 1.1 to 1.3 with a fresh vinegar sample as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values of R differ by more than 2% of their mean, do a third run and use the two closest values.
+**1.4** Repeat steps 1.1 to 1.3 with a fresh vinegar sample as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values of R differ by more than 5% of their mean, do a third run and use the two closest values.
 
 **1.5** Put a clean plastic cup on the scale and tare it. Add **1.50 g** of vinegar, within 0.10 g, and record the mass **m_s** to 0.01 g. Add about **20 mL** (4 teaspoons) of distilled water. Do not add indicator.
 
@@ -136,7 +136,7 @@ Wear safety goggles for the whole lab and gloves while handling the lye and its 
 
 **2.2** Make the titration. There is no color change at the first equivalence point of this diprotic acid; the endpoint found here is the second equivalence point. Record **m_before**, **m_after** and **m_eq** under Run 1.
 
-**2.3** Repeat steps 2.1 and 2.2 with a fresh 10 g portion of extract as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values differ by more than 2% of their mean, do a third run and use the two closest values.
+**2.3** Repeat steps 2.1 and 2.2 with a fresh 10 g portion of extract as Run 2. Calculate **R** = m_eq / m_v for each run. If the two values differ by more than 5% of their mean, do a third run and use the two closest values.
 
 **2.4** Put a clean plastic cup on the scale and tare it. Pour in **15 g** of extract, within 1 g, and record the mass **m_s** to 0.01 g. Do not add indicator.
 
